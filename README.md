@@ -3,34 +3,11 @@
 Reference notes on the WNBA expansion process, historical teams, and candidate-city profiles.
 
 - **Visual board (flowchart + editable tables):** https://miro.com/app/board/uXjVH88ACHY=/
-- **Spreadsheet version:** `WNBA_Expansion_Database.xlsx` (see chat)
-- **Raw data (CSV, one file per table):** [`/data`](./data)
-- **Charts (PNG):** [`/charts`](./charts)
+- **Spreadsheet version:** `WNBA_Expansion_Database.xlsx`
+
 
 > Population figures are metro-area estimates and arena capacities are basketball
 > configurations; both are approximate. Current as of mid-2026.
-
-## Putting this on GitHub
-
-This folder is already laid out as a repo — `README.md` at the root, data in `/data`,
-images in `/charts`. From this folder:
-
-```bash
-git init
-git add .
-git commit -m "WNBA expansion research"
-gh repo create wnba-expansion-database --public --source=. --push
-# no GitHub CLI? create an empty repo on github.com first, then:
-# git remote add origin https://github.com/<you>/wnba-expansion-database.git
-# git branch -M main
-# git push -u origin main
-```
-
-Once pushed, GitHub renders this README with working tables and inline images automatically —
-no extra setup needed. To edit any table, open the `.md` or `.csv` files in VS Code; GitHub
-diffs both cleanly. The Miro board is not a file, so it can't live in the repo — link to it
-from the README instead (already done above), or export a board snapshot as an image if you
-want a static copy checked into git.
 
 ## Charts
 
